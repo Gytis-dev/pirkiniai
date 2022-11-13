@@ -8,12 +8,15 @@ export const App = () => {
   const [state, setState] = useState([]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Menu />
       <Routes>
-        <Route path="/" element={<Home state={{ state, setState }} />} />
         <Route
-          path="/registruoti"
+          path="/pirkiniai"
+          element={<Home state={{ state, setState }} />}
+        />
+        <Route
+          path="/pirkiniai/registruoti"
           element={<Form state={{ state, setState }} />}
         />
       </Routes>

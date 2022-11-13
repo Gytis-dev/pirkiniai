@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/manopirkiniai/static/js/main.5ed69c22.js",
-    "index.html": "/manopirkiniai/index.html",
-    "main.5ed69c22.js.map": "/manopirkiniai/static/js/main.5ed69c22.js.map"
+    "main.js": "/pirkiniai/static/js/main.5ed69c22.js",
+    "index.html": "/pirkiniai/index.html",
+    "main.5ed69c22.js.map": "/pirkiniai/static/js/main.5ed69c22.js.map"
   },
   "entrypoints": [
     "static/js/main.5ed69c22.js"

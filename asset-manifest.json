@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/manopirkiniai/static/js/main.601bb7bc.js",
+    "main.js": "/manopirkiniai/static/js/main.b9509f62.js",
     "index.html": "/manopirkiniai/index.html",
-    "main.601bb7bc.js.map": "/manopirkiniai/static/js/main.601bb7bc.js.map"
+    "main.b9509f62.js.map": "/manopirkiniai/static/js/main.b9509f62.js.map"
   },
   "entrypoints": [
-    "static/js/main.601bb7bc.js"
+    "static/js/main.b9509f62.js"
   ]
 }

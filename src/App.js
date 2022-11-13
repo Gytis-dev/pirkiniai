@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Form } from "./pages/Form/Form";
 import { Home } from "./pages/Home/Home";
 import { Menu } from "./components/Menu";
@@ -8,7 +8,7 @@ export const App = () => {
   const [state, setState] = useState([]);
 
   return (
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
       <Menu />
       <Routes>
         <Route path="/" element={<Home state={{ state, setState }} />} />
@@ -17,6 +17,6 @@ export const App = () => {
           element={<Form state={{ state, setState }} />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };

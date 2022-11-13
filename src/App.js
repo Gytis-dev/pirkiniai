@@ -11,12 +11,9 @@ export const App = () => {
     <BrowserRouter basename="/">
       <Menu />
       <Routes>
+        <Route path="/" element={<Home state={{ state, setState }} />} />
         <Route
-          path="/manopirkiniai"
-          element={<Home state={{ state, setState }} />}
-        />
-        <Route
-          path="/manopirkiniai/registruoti"
+          path="/registruoti"
           element={<Form state={{ state, setState }} />}
         />
       </Routes>

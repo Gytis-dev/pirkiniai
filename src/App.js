@@ -8,7 +8,7 @@ export const App = () => {
   const [state, setState] = useState([]);
 
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Menu />
       <Routes>
         <Route path="/" element={<Home state={{ state, setState }} />} />

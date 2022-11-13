@@ -32,12 +32,10 @@ export const Form = ({ state }) => {
     if (!pirkinys) {
       setOpen(true);
       setPirkinys(true);
-    }
-    if (!pardavejas) {
+    } else if (!pardavejas) {
       setOpen(true);
       setPardavejas(true);
-    }
-    if (!aprasymas) {
+    } else if (!aprasymas) {
       setOpen(true);
       setAprasymas(true);
     } else {

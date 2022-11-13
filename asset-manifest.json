@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/pirkiniai/static/js/main.efd319a2.js",
+    "main.js": "/pirkiniai/static/js/main.f73edacc.js",
     "index.html": "/pirkiniai/index.html",
-    "main.efd319a2.js.map": "/pirkiniai/static/js/main.efd319a2.js.map"
+    "main.f73edacc.js.map": "/pirkiniai/static/js/main.f73edacc.js.map"
   },
   "entrypoints": [
-    "static/js/main.efd319a2.js"
+    "static/js/main.f73edacc.js"
   ]
 }

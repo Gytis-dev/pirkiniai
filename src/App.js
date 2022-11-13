@@ -8,7 +8,7 @@ export const App = () => {
   const [state, setState] = useState([]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Menu />
       <Routes>
         <Route
